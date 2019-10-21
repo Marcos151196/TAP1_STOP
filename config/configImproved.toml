@@ -1,0 +1,13 @@
+[general]
+    sshcert = "~/TAP1_DEPLOY/keypairec2mqtt.pem"
+
+[mqtt]
+    dns = "ec2-3-10-14-1.eu-west-2.compute.amazonaws.com"
+    stopscript = "stopMQTTEC2.sh"
+
+[echosearch]
+    stopscript = "stopEchoSearchEC2_improved.sh"
+
+[webclient]
+    stopscript= "stopWebClientEC2_improved.sh"
+    IP = "35.176.23.53"
